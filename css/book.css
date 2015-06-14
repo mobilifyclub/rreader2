@@ -22,11 +22,16 @@ body{
 
 
 #book_toc{
-	width: 20%;
+	width: 60%;
   margin-left: auto ;
   margin-right: auto ;
+  font-size: 16pt;
+      border: 1px solid #8C001A;
+    padding: 2% 10%;
 
 }
+
+
 
 #book_toc a:link, 
 #book_toc  a:visited, 
@@ -34,3 +39,39 @@ body{
  color: black; 
  text-decoration: underline; 
 } 
+
+
+.navbar-custom {
+    background-color: #8C001A;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
