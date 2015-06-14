@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Open Source Libraries  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>  
+    <script src="node_modules/angular-route/angular-route.js"></script> 
+    <link rel="stylesheet" type="text/css" href="/app/css/site.css" media="screen" />
+    <!-- Controller  -->
+    <script src="/js/rreader.js"></script>  
+	  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+
+  <body ng-app="rreaderApp">
+    <div ng-controller="MainController">
+      Choose:
+      <a href="books/peter-pan">Peter Pan</a>
+    
+
+      <div ng-view></div>
+    
+      <pre>$location.path() = {{$location.path()}}</pre>
+      <pre>$route.current.templateUrl = {{$route.current.templateUrl}}</pre>
+      <pre>$route.current.params = {{$route.current.params}}</pre>
+      <pre>$route.current.scope.name = {{$route.current.scope.name}}</pre>
+      <pre>$routeParams = {{$routeParams}}</pre>
+  
+    </div>
+  </body>
+</html>
