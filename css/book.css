@@ -1,0 +1,36 @@
+body{
+	background-color: #F5F5DC;
+}
+#book_text{
+
+	  width: 60% ;
+  margin-left: auto ;
+  margin-right: auto ;
+  font-size: 16pt;
+  font-family:Verdana;
+}
+#book_text h2{
+	color:#8C001A;
+}
+
+#book_title{
+	width: 60% ;
+  margin-left: auto ;
+  margin-right: auto ;
+  text-align: center;
+}
+
+
+#book_toc{
+	width: 20%;
+  margin-left: auto ;
+  margin-right: auto ;
+
+}
+
+#book_toc a:link, 
+#book_toc  a:visited, 
+#book_toc a:hover { 
+ color: black; 
+ text-decoration: underline; 
+} 

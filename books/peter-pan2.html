@@ -20,6 +20,7 @@
 
 
 
+    <link rel="stylesheet" type="text/css" href="/css/book.css"/>
 
     <link rel="stylesheet" type="text/css" href="/css/inlineDisqussions.css" media="screen" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -31,48 +32,17 @@
         <script>
       disqus_shortname = 'mobilify';
        jQuery(document).ready(function() {
-        jQuery("p").inlineDisqussions();
+        jQuery("p").inlineDisqussions({
+            displayCount: false,
+              highlighted: true
+        });
       });
     </script>
   </head>
   <body>
-<pre xml:space="preserve">
-
-The Project Gutenberg EBook of Peter Pan, by James M. Barrie
-
-This eBook is for the use of anyone anywhere at no cost and with
-almost no restrictions whatsoever.  You may copy it, give it away or
-re-use it under the terms of the Project Gutenberg License included
-with this eBook or online at www.gutenberg.org
-
-** This is a COPYRIGHTED Project Gutenberg eBook, Details Below **
-**     Please follow the copyright guidelines in this file.     **
-
-Title: Peter Pan
-       Peter Pan and Wendy
-
-Author: James M. Barrie
-
-Release Date: June 25, 2008 [EBook #16]
-Last Updated: November 4, 2012
-
-Language: English
-
-Character set encoding: ASCII
-
-*** START OF THIS PROJECT GUTENBERG EBOOK PETER PAN ***
 
 
-
-Produced by David Widger
-
-
-
-
-
-
-</pre>
-
+<div id="book_title"> 
     <h1>
       <i><b>PETER PAN</b></i><br />
     </h1>
@@ -88,67 +58,69 @@ Produced by David Widger
       A Millennium Fulcrum Edition <br /> (c)1991 by Duncan Research
     </h4>
 
-    <hr />
-
-    <blockquote>
-      
-        <big><b>CONTENTS</b></big>
-
-      
-        <a href="#link2HCH0001"> Chapter 1 PETER BREAKS THROUGH </a>
-
-      
-        <a href="#link2HCH0002"> Chapter 2 THE SHADOW </a>
-
-      
-        <a href="#link2HCH0003"> Chapter 3 COME AWAY, COME AWAY! </a>
-
-      
-        <a href="#link2HCH0004"> Chapter 4 THE FLIGHT </a>
-
-      
-        <a href="#link2HCH0005"> Chapter 5 THE ISLAND COME TRUE </a>
-
-      
-        <a href="#link2HCH0006"> Chapter 6 THE LITTLE HOUSE </a>
-
-      
-        <a href="#link2HCH0007"> Chapter 7 THE HOME UNDER THE GROUND </a>
-
-      
-        <a href="#link2HCH0008"> Chapter 8 THE MERMAIDS' LAGOON </a>
-
-      
-        <a href="#link2HCH0009"> Chapter 9 THE NEVER BIRD </a>
-
-      
-        <a href="#link2HCH0010"> Chapter 10 THE HAPPY HOME </a>
-
-      
-        <a href="#link2HCH0011"> Chapter 11 WENDY'S STORY </a>
-
-      
-        <a href="#link2HCH0012"> Chapter 12 THE CHILDREN ARE CARRIED OFF </a>
-      
-        <a href="#link2HCH0013"> Chapter 13 DO YOU BELIEVE IN FAIRIES? </a>
-      
-        <a href="#link2HCH0014"> Chapter 14 THE PIRATE SHIP </a>
-      
-        <a href="#link2HCH0015"> Chapter 15 "HOOK OR ME THIS TIME" </a>
-
-      
-        <a href="#link2HCH0016"> Chapter 16 THE RETURN HOME </a>
-
-      
-        <a href="#link2HCH0017"> Chapter 17 WHEN WENDY GREW UP </a>
-    </blockquote>
+</div> 
 
     <hr />
-    <div style="width:80%;">
-    <p>
+
+    <div id="book_toc">
+      
+        <big><b>CONTENTS</b></big> <br />
+
+      
+        <a href="#link2HCH0001"> Chapter 1 PETER BREAKS THROUGH </a> <br/ >
+
+      
+        <a href="#link2HCH0002"> Chapter 2 THE SHADOW </a> <br/ >
+
+      
+        <a href="#link2HCH0003"> Chapter 3 COME AWAY, COME AWAY! </a> <br/ >
+
+      
+        <a href="#link2HCH0004"> Chapter 4 THE FLIGHT </a> <br/ >
+
+      
+        <a href="#link2HCH0005"> Chapter 5 THE ISLAND COME TRUE </a> <br/ >
+
+      
+        <a href="#link2HCH0006"> Chapter 6 THE LITTLE HOUSE </a> <br/ >
+
+      
+        <a href="#link2HCH0007"> Chapter 7 THE HOME UNDER THE GROUND </a> <br/ >
+
+      
+        <a href="#link2HCH0008"> Chapter 8 THE MERMAIDS' LAGOON </a> <br/ >
+
+      
+        <a href="#link2HCH0009"> Chapter 9 THE NEVER BIRD </a> <br/ >
+
+      
+        <a href="#link2HCH0010"> Chapter 10 THE HAPPY HOME </a> <br/ >
+
+      
+        <a href="#link2HCH0011"> Chapter 11 WENDY'S STORY </a> <br/ >
+
+      
+        <a href="#link2HCH0012"> Chapter 12 THE CHILDREN ARE CARRIED OFF </a> <br/ >
+      
+        <a href="#link2HCH0013"> Chapter 13 DO YOU BELIEVE IN FAIRIES? </a> <br/ >
+      
+        <a href="#link2HCH0014"> Chapter 14 THE PIRATE SHIP </a> <br/ >
+      
+        <a href="#link2HCH0015"> Chapter 15 "HOOK OR ME THIS TIME" </a> <br/ >
+
+      
+        <a href="#link2HCH0016"> Chapter 16 THE RETURN HOME </a> <br/ >
+
+      
+        <a href="#link2HCH0017"> Chapter 17 WHEN WENDY GREW UP </a> <br/ >
+
+  </div>
+    <hr />
+    <div id="book_text">
+    
       <br /> <br /> <a name="link2HCH0001" id="link2HCH0001">
       <!--  H2 anchor --> </a>
-    </p>
+    
     <h2>
       Chapter 1 PETER BREAKS THROUGH
     </h2>
@@ -7939,6 +7911,46 @@ And when they're writ upon your back&mdash;"
       THE END <br /><br />
     </p>
   </div>
+
+
+
+    
+<pre xml:space="preserve">
+
+The Project Gutenberg EBook of Peter Pan, by James M. Barrie
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+** This is a COPYRIGHTED Project Gutenberg eBook, Details Below **
+**     Please follow the copyright guidelines in this file.     **
+
+Title: Peter Pan
+       Peter Pan and Wendy
+
+Author: James M. Barrie
+
+Release Date: June 25, 2008 [EBook #16]
+Last Updated: November 4, 2012
+
+Language: English
+
+Character set encoding: ASCII
+
+*** START OF THIS PROJECT GUTENBERG EBOOK PETER PAN ***
+
+
+
+Produced by David Widger
+
+
+
+
+
+
+</pre>
 <pre xml:space="preserve">
 
 
